@@ -6,7 +6,6 @@
 // Q4: Alert box mein single quotes ka use karke likho: 'I love coding'
 // Q5: Aisa alert likho jisme message ho "Error! Please enter a valid password."
 
-
 //ALL ANSWERS
 // //1
 // alert("Welcome to my website!");
@@ -23,7 +22,6 @@
 
 // //5
 // alert("Error! Please enter a valid password.");
-
 
 // ---------------------💼 Interview Questions (Chapter 1: Alert)-------------------
 // Q1: JavaScript mein alert() function kis liye use hota hai?
@@ -59,9 +57,6 @@
 // Answer:
 // Nahi, is case mein "5 + 5" ek string hai, to alert box mein 5 + 5 as text show hoga, calculation nahi hogi.
 
-
-
-
 // //--------------------------------✍️ Practice Questions (Chapter 2) -------------------------
 //ALL QUESTIONS
 // Q1: Ek variable banao jiska naam ho fullName aur usme apna naam store karo.
@@ -69,7 +64,6 @@
 // Q3: Do variables banao — firstName aur lastName. Unmein apna first aur last name store karo. Phir ek alert show karo jisme dono combine ho kar full name dikhe.
 // Q4: Ek variable city banao aur usme "Karachi" store karo. Phir usay console mein print karo.
 // Q5: Ek variable greeting banao jisme likha ho "Good Morning!", phir alert() aur console.log() dono mein use karo.
-
 
 //ALL ANSWERS
 // //1
@@ -92,7 +86,6 @@
 // let greeting = "Good Morning!";
 // alert(greeting);
 // console.log(greeting);
-
 
 //--------------------- 💼 Interview Questions (Chapter 2: Variables for Strings)------------------------
 // Q1: JavaScript mein variable kya hota hai?
@@ -132,8 +125,6 @@
 // Ek waqt mein ek hi value store hoti hai. Agar concatenate karna ho to ho sakta hai:
 // var info = "Age: " + 25;
 
-
-
 //---------------------------- ✍️ Practice Questions (Chapter 3) --------------------------
 //ALL QUESTIONS
 // Q1: Ek valid variable banao jiska naam ho userAge aur usme 25 store karo.
@@ -149,9 +140,8 @@
 // _isValid
 // var
 
-
 //ALL ANSWERS
-//1 
+//1
 // let userAge = 25;
 
 // //2
@@ -204,8 +194,6 @@
 // Q7: Kya yeh variable name valid hai: $priceTotal?
 // Answer:
 // ✅ Haan, $ se start hone wale variable names valid hote hain.
-
-
 
 //----------------------------------✍️ Practice Questions (Chapter 4)-------------------------
 //ALL QUESTIONS
@@ -286,34 +274,32 @@
 // + operator — ye addition bhi karta hai aur strings ko concatenate bhi.
 // Example: "5" + 3 = "53"
 
-
 //--------------------------------------  Practice Questions (Chapter 5) --------------------------------
-//ALL ANSWERS 
-// //1 
+//ALL ANSWERS
+// //1
 // let a = 10;
-// let b = 5; 
-// let difference = a - b; 
+// let b = 5;
+// let difference = a - b;
 // alert(difference);
 
-// //2 
+// //2
 // let price = 7;l
-// let quantity = 4; 
+// let quantity = 4;
 // let cost = price * quantity; console.log(cost)
 
-// //3 
-// let x = 12; 
-// let y = 5; 
-// let reminder = x % y; 
+// //3
+// let x = 12;
+// let y = 5;
+// let reminder = x % y;
 // alert (reminder)
 
-// //4 
-// let result = 3 + 6 + 9; 
+// //4
+// let result = 3 + 6 + 9;
 // console.log(result)
 
 // //5
 // let sum = 3 * 6 -10
 // alert(sum)
-
 
 //------------------------------// Chapter 5 – Interview Questions ----------------------------
 // 1. JavaScript mein arithmetic operators ka kya kaam hota hai?
@@ -343,24 +329,22 @@
 // 7. console.log(10 % 3); ka output kya hoga?
 // Answer: Output hoga 1, kyunke 10 ÷ 3 = 3 remainder 1 ke sath.
 
-
-
 //--------------------------------  Practice Questions (Chapter 6) -------------------------
 //All Answer
 //1
 // let a = 7;
 // a++;
-// console.log(a); // answer 7 hi Raha ga 
+// console.log(a); // answer 7 hi Raha ga
 
 // //2
 // let b = 10;
 // --b;
-// alert(b); //answer 9 ho ga 
+// alert(b); //answer 9 ho ga
 
 // //3
 // let x = 5;
 // let y = x++;
-// console.log("x:", x); // answer ho ga 66 
+// console.log("x:", x); // answer ho ga 66
 // console.log("y:", y); // answer ho ga 55 //WRONG ANSWER
 
 // //4
@@ -368,19 +352,19 @@
 // let result = --num + 3;
 // console.log(result);  // answer ho ga 14
 
-// //5 
+// //5
 // let val = 4;
-// val--; // answer 4 Raha ga 
-// val++; //answer 4 ho ga 
+// val--; // answer 4 Raha ga
+// val++; //answer 4 ho ga
 // console.log(val); //answer 4 ho ga  //wRONG ANSWER
 
 //MORE QUESTIONS
-// //1 
+// //1
 // let score = 20;
 // score--;
 // console.log(score); // answer ha 19
 
-// //2 
+// //2
 // let value = 15;
 // let result = ++value;
 // alert(result); //answer ha 16
@@ -388,7 +372,7 @@
 // //3
 // let a = 3;
 // let b = a--;
-// console.log("a:", a); a = 2 
+// console.log("a:", a); a = 2
 // console.log("b:", b); b = 3
 
 // //4
@@ -400,7 +384,6 @@
 // let num = 10;
 // let result = num++ + ++num;
 // console.log(result); // answer is 21
-
 
 //---------------------------- ✍️ Practice Questions (CHAPTER 7):
 //AL QUESTIONS
@@ -416,16 +399,16 @@
 // let lastName = "khan";
 // alert(firstName +  " " + lastName)
 
-// //2 
+// //2
 // let city = "Karachi";
 // alert( "I live in " + city);
 
-// //3 
+// //3
 // let fruit = "mango";
 // let color = "Yellow";
 // alert("The " + fruit + " is " + color);
 
-// //4 
+// //4
 // let userName = "Fareeha";
 // alert("Hello, " + userName);
 
@@ -469,7 +452,6 @@
 
 //CHATER -8 IS ALSO A CONCATINATION CAHPTER TO MA NA US KO NHI KIA KU KA CH-8 CH-7 KI HI TARHA THA//
 
-
 //---------------- Practice Questions (Chapter 9) ----------------//
 //ALL QUESTIONS
 // 1. User se uska naam puchho aur alert mein usay greet karo:
@@ -496,7 +478,7 @@
 // let city = prompt("Enter your city name?");
 // alert("Your are from " + city);
 
-// //4 
+// //4
 // let age = prompt("Enter your age");
 // alert("You are " + age + " years old");
 
@@ -504,5 +486,33 @@
 // let userHobby = prompt("Enter your hobby?");
 // console.log("Hobby: " + userHobby);
 
+//--------------------------------------  Chapter 10: if Statements. ------------------------------------
+//ALL QUESTIONS
+// Question 1:
+// Tumhare paas ek variable temperature hai, jo temperature ka value store karta hai. Agar temperature 30 se zyada hai, toh "It's hot outside" print karna hai. Agar 30 se kam ho, toh "It's a pleasant day" print karna hai. Code likho.
+// Question 2:
+// Agar tumhare paas ek variable username hai, jo user ka name store karta hai, aur agar username "admin" hai, toh "Welcome Admin" print karna hai. Agar "admin" nahi hai, toh "Welcome Guest" print karna hai.
+// Question 3:
+// Tumhare paas ek variable score hai. Agar score 50 ya usse zyada hai, toh "You passed the exam!" print karna hai. Agar score 50 se kam hai, toh "Try again" print karna hai.
+// Question 4:
+// Agar tumhare paas ek variable hour hai, jo current hour ko store karta hai (24-hour format mein), toh agar hour 18 ya usse zyada hai, toh "Good evening" print karna hai. Agar hour 18 se kam hai, toh "Good morning" print karna hai.
+// Question 5:
+// Agar tumhare paas ek variable age hai, aur agar age 18 se zyada hai, toh "You are eligible to vote" print karna hai. Agar age 18 se kam hai, toh "You are not eligible to vote yet" print karna hai.
 
+//ALL ANSWERS
+//1
+let temperature = 30;
+if(temperature > 30){
+    console.log("It's hot outside");
+}else {
+    console.log("Its a pleasent day");
+}
 
+//2
+let userName = "admin";
+if(userName == admin){
+    console.log("Welcome admin");
+}else{
+    console.log("welcome quest");
+    
+}
